@@ -1,0 +1,28 @@
+/* this is so important cuse define the portion 
+of each element in screen the supplement of this 
+container is cardlist you should see the card list 
+css for better underestanding this flex scaling */
+.container {
+  flex: 2;
+  margin-top: 60px;
+}
+
+.subtitle {
+  color: gray;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 28px;
+}
+
+.categoriesTitle{
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+  .container{
+      display: none;
+  }
+}

@@ -1,0 +1,11 @@
+/* this is so important cuse define the portion 
+of each element in screen the supplement of this 
+container is cardlist you should see the menu css for 
+better underestanding this flex scaling */
+.container {
+  flex: 5;
+}
+
+.title {
+  margin: 50px 0px;
+}

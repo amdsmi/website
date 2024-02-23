@@ -1,0 +1,85 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.wrapper {
+  background-color: var(--softBg);
+  padding: 150px 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.socialButton {
+  padding: 20px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 300px;
+}
+
+.googleIcon {
+  margin-right: 5px;
+}
+
+.socialButton:first-child {
+  background-color: #000e67;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+.socialButton:nth-child(2) {
+  background-color: var(--softBg);
+  color: var(--textColor);
+  cursor: text;
+  height: 40px;
+  border-bottom: 2px solid var(--textColor);
+}
+.socialButton:nth-child(3) {
+  background-color: var(--softBg);
+  color: var(--textColor);
+  cursor: text;
+  height: 40px;
+  border-bottom: 2px solid var(--textColor);
+}
+
+.socialButton:nth-child(4) {
+  background-color: rgba(1, 137, 137, 0.485);
+  border-radius: 20px;
+  margin-top: 30px;
+  height: 30px;
+}
+
+.socialButton:last-child {
+  background-color: rgb(2, 0, 136);
+  border-radius: 20px;
+  height: 30px;
+}
+
+.socialButton:nth-child(4):disabled {
+  cursor: not-allowed;
+  background-color: teal;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 50px 100px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .wrapper {
+    padding: 30px;
+  }
+  /* .socialButton {
+    font-weight: 400;
+    font-size: 14px;
+  } */
+}
